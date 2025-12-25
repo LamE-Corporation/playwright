@@ -5,7 +5,7 @@ on:
     inputs:
       ref:
         description: Playwright SHA / ref to test. Use 'refs/pull/PULL_REQUEST_ID/head' to test a PR. Defaults to the current branch.
-        required: false
+        required: true
         default: ''
   pull_request:
     branches:
